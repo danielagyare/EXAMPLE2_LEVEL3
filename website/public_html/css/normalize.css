@@ -1,0 +1,42 @@
+header{
+    text-align: center;
+    background:url("../images/niggafiles_420.jpg");
+    background-size:cover;
+    color:white;
+}
+ul{
+    padding:10px 10px 10px 10px;
+    background: rgb(255,0,0,0.2);
+}
+li{
+    display:inline;
+    padding:0px 10px 0px 10px;
+}
+a{
+    color:white;
+}
+h1{
+    font-size:70px;
+}
+img{
+    margin: 40px 0px 0px 0px;
+    border: 7px solid white;
+    border-radius: 70px;
+}
+article{
+    width: 500px;
+    padding: 20px;
+    margin: 0 Auto;
+}
+@media(max-width: 500px){
+    body{
+        background: red;
+    }
+    h1{
+        font-size: 36px;
+    }
+    li{
+        display: block;
+        padding: 5px;
+    }
+}
